@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LoveMe10der!!</string>
+    <string name="period_key">period</string>
+    <string name="period_title">期間設定（日）</string>
+    <string name="period_summary">過去何日間のデータを取得しますか？</string>
+</resources>

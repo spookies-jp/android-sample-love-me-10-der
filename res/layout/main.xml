@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    >
+    <ImageView 
+    	android:id="@+id/titleImage" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="match_parent"
+    	android:src="@drawable/top_total" />
+    <ListView 
+    	android:background="#ffffff" 
+    	android:cacheColorHint="#ffffff"
+    	android:divider="@drawable/line_dot"
+    	android:id="@android:id/list" 
+    	android:layout_height="0dip" 
+    	android:layout_margin="10dip"
+    	android:layout_weight="1"
+    	android:padding="5dip"
+    	android:layout_width="match_parent" />
+    <LinearLayout 
+    	android:id="@+id/linearLayout2"
+    	android:layout_height="wrap_content"
+       	android:layout_width="match_parent" >
+
+		<Button 
+			android:background="@drawable/button_total" 
+			android:id="@+id/button1" 
+			android:layout_height="wrap_content" 
+			android:layout_margin="5dip" 
+			android:layout_weight="1"
+			android:layout_width="0dip" 
+			android:onClick="onClickTotalButton" />
+		<Button 
+			android:background="@drawable/button_receipt" 
+			android:id="@+id/button2" 
+			android:layout_height="wrap_content" 
+			android:layout_margin="5dip"
+			android:layout_weight="1"
+			android:layout_width="0dip" 
+			android:onClick="onClickReceiptButton" />
+		<Button 
+			android:background="@drawable/button_send" 
+			android:id="@+id/button3" 
+			android:layout_height="wrap_content" 
+			android:layout_margin="5dip"
+			android:layout_weight="1"
+			android:layout_width="0dip" 
+			android:onClick="onClickSendButton" />
+    </LinearLayout>
+</LinearLayout>
